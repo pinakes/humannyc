@@ -1,4 +1,4 @@
-/* General */
+/* General 
 
 body {
 	padding: 0;
@@ -156,4 +156,10 @@ span.txt-img img {
 #inner {
   display: table-cell;
   vertical-align: middle;
+}
+*/
+.cover {
+	display: block;
+	width: 100%;
+	height: 100vh;
 }
