@@ -1,5 +1,94 @@
-/* General 
+/* General */
 
+body {
+	background: url(../img/nyc-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5 {
+	color: #0230a3;
+}
+h1 {}
+h2 {}
+h3, h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+}
+h3 {
+	margin: 0.6rem 0 2rem 0;
+}
+h4 {
+    margin: 0.6rem 0;
+}
+p {
+	color: #777777;
+}
+
+/* Nav */
+.nav-tabs {
+    border-bottom: 2px solid transparent;
+}
+.nav-link {
+    display: block;
+    padding: 0.6rem 0 1rem 0;
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0230a3;
+    border-color: transparent;
+    border-bottom: 2px solid #0230a3;
+}
+.nav-tabs a.nav-link:hover {
+	border-color: transparent;
+	border-bottom: 2px solid #0230a3;
+}
+
+/* content */
+.step {
+	height: 83vh;
+    margin: 2.5rem 1.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    overflow: hidden;
+    background: #ffffff;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 100%;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: transparent;
+}
+.card-header {
+    padding: .75rem 0 .75rem 2em;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+.card-header h5 {
+	display: list-item;
+    list-style-image: url('../img/list-symbol.png');
+}
+.card-header h5 .btn {
+	white-space: unset;
+	text-align: left;
+	padding: 0;
+	color: #000000;
+}
+.card-body {
+    padding: 0 0 1.25rem 2rem;
+}
+/*
 body {
 	padding: 0;
 	margin: 0;
