@@ -3,12 +3,14 @@
 body {
 	background: url(../img/nyc-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
+	font-family: 'Roboto Slab', serif;
 }
 
 /* Titles */
 
 h1, h2, h3, h4, h5 {
-	color: #0230a3;
+	color: #0230A3;
+	font-family: 'Libre Franklin', sans-serif;
 }
 h1 {}
 h2 {}
@@ -26,7 +28,39 @@ h4 {
 p {
 	color: #777777;
 }
-
+a {
+	color: #0230A3;
+	display: block;
+    height: 1.6em;
+    width: fit-content;
+    border-bottom: 1px solid;
+}
+a:hover {
+	text-decoration: none;
+}
+/* Cover */
+.logo {
+	display: block;
+    height: 100%;
+    width: 156px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../img/humanNycLogo.png) no-repeat center 32%;
+    background-size: 100%;
+}
+.coverTitle {
+	margin-top: 62px;
+}
+/* Top-bar */
+.topbar {
+	margin: 1em 0;
+}
+.topbar a{
+	float: right;
+}
+.topbar .col {
+    border-bottom: 1px solid #707070;
+}
 /* Nav */
 .nav-tabs {
     border-bottom: 2px solid transparent;
@@ -87,6 +121,10 @@ p {
 }
 .card-body {
     padding: 0 0 1.25rem 2rem;
+}
+.scroll {
+	max-height: 550px;
+    overflow: scroll;
 }
 /*
 body {
