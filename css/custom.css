@@ -51,6 +51,30 @@ a:hover {
 .coverTitle {
 	margin-top: 62px;
 }
+#quote {
+	height: 70%;
+    display: flex;
+    margin: auto;
+}
+#quote p {
+	margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #002277;
+}
+/* path */
+.path {
+	padding-top: 62px;
+    height: 70vh;
+    position: relative;
+    display: block;
+}
+circle:hover {
+	stroke-width: 4px;
+	stroke: #0230A3;
+	cursor: pointer;
+}
 /* Top-bar */
 .topbar {
 	margin: 1em 0;
