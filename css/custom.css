@@ -96,15 +96,23 @@ circle:hover {
     font-size: 0.9rem;
     text-transform: uppercase;
 }
+.nav-modal-link {
+	border-radius: 0;
+    padding: 12px 0 6px;
+}
 
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-link.active, .nav-modal-link, 
+.nav-tabs a.nav-link:visited, .nav-modal-link:visited, 
+.nav-tabs a.nav-link:focus, .nav-modal-link:focus {
     color: #0230a3;
     border-color: transparent;
     border-bottom: 2px solid #0230a3;
+    text-decoration: none;
 }
-.nav-tabs a.nav-link:hover {
+.nav-tabs a.nav-link:hover, .nav-modal-link:hover{
 	border-color: transparent;
 	border-bottom: 2px solid #0230a3;
+	text-decoration: none;
 }
 
 /* content */
@@ -313,4 +321,25 @@ span.txt-img img {
 	display: block;
 	width: 100%;
 	height: 100vh;
+}
+#exampleModal {
+	padding-right: 0 !important;
+	background: #EBF1FF;
+}
+.modal-dialog {
+	max-width: 100%;
+    margin: 0;
+}
+#exampleModal .modal-content {
+	background: none;
+	border: none;
+}
+h3.huge {
+	font-size: 2.5em;
+}
+.highlight {
+	color: #0230A3;
+}
+.highlight.huge {
+	font-size: 1.5em;
 }

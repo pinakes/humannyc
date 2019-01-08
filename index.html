@@ -6,12 +6,50 @@
 	    <!-- Bootstrap -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	    <link href="css/custom.css" rel="stylesheet" media="screen">
-	    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 	    <script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
 	  	<div class="wrapper">
+	  		<!-- Modal -->
+			<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			       <div class="container">
+			       		<div class="row">
+								<div class="col col-md-6">
+									<h3 class="huge">Human.nyc began with a broad goal of helping street homeless folks.</h3>
+								</div>
+							</div>
+	  					<div class="row">
+							<div class="col col-md-4">
+								<p>We asked people what they needed they weren’t often receiving. They talked to us about the need for socks, tampons and pads, and winter coats. So, we partnered with other businesses and nonprofits to receive those items, we build a team of volunteers to distribute them, and we hit the streets.</p>
+								<p>It didn’t take long before our conversations with folks reached a deeper level.</p>
+								<p class="highlight">Concerning trends began to arise: people told us they felt safer on the streets than in the shelters and about the bureaucracy they faced before being offered any form of housing.</p>
+							</div>
+							<div class="col col-md-4">
+								<p>Our team felt compelled to switch gears, shifting our focus from distributing items to policy and advocacy. But our methodology never changed. It was and always will be about listening to people who are homeless. Put simply, they know homelessness better than anyone else.</p>
+								<p>We learned how to ask the right questions to really get at the nuances of what was keeping folks on the streets. We identified the shelters that were driving people away from the shelter system, we learned about a process where people who already feel invisible need to be “sighted” multiple times to get a case manager, and we heard how difficult it is to meet the city’s 9-months of living on the streets requirement for transitional or permanent housing.</p>
+							</div>
+							<div class="col col-md-4">
+								<p>After two years of hearing people’s stories, we have identified the gaps between how the system was supposed to work and how people are experiencing it, and compiled the evidence we needed to make a compelling case for reform.</p>
+								<p class="highlight">We’ve now launched Human.nyc, an advocacy resource for anyone looking to help our street homeless neighbors secure housing.</p>
+								<p class="highlight huge">Please do not hesitate to reach out to us at hello@human.nyc</p>
+							</div>
+						</div>
+					</div>
+			      </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 	  		<div class="container-fluid">
 	  			<div class="row">
 					<div class="col col-md-12">
@@ -24,7 +62,7 @@
 									<p><strong>Our team spent two years listening to homeless New Yorkers.</strong><br>This website aims to summarize our findings and push forward sensible reforms that we developed alongside our homeless neighbors.</p>
 								</div>
 								<div class="col col-md-2 text-right">
-									<a href="#">Learn more about us</a>
+									<button type="button" class="btn btn-link nav-modal-link" data-toggle="modal" data-target="#exampleModal">Learn more about us</button>
 								</div>
 							</div>
 							<div class="row">
@@ -38,18 +76,18 @@
 								</div>
 								<div class="col col-md-6">
 									<div class="path">
-										<svg width="100%" height="100%" viewBox="0 0 325 723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 										    <desc>Human.nyc path</desc>
 										    <g id="path" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										        <g id="Artboard" transform="translate(-9.000000, -9.000000)" stroke="#707070" stroke-width="3">
-										            <path d="M228.98113,11 C228.98113,97.6046797 325.521219,128.370385 325.521219,202.988933 C325.521219,277.607482 158.790429,278.888085 158.790429,365.875384 C158.790429,452.862682 332,418.259072 332,538.729454 C332,581.633557 285.024929,624.775822 164.557169,626.774812 C56.2540763,626.774812 5.24020017,661.183208 11.5155407,730" id="Path-2"></path>
+										        <g id="Artboard" transform="translate(0, 10)" stroke="#707070" stroke-width="3">
+										            <path id="HumanPath" width="100%" height="100%" data-name="Human Path" class="vectorPath" d="M-406,160.585s454.354-13,457,70.845-333.92,21.408-331,117.5,254.479,64.3,252,145.461-299.02,30.72-299,106.2,188.508,78.728,188.508,78.728" transform="translate(600 -158.355)"/>
 										        </g>
 										    </g>
-											<a href="#step_one"><circle id="step1" cx="68%" cy="1.6%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(0)"/></a>
-											<a href="#step_two"><circle id="step1" cx="97%" cy="26%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(1)" /></a>
-											<circle id="step1" cx="47%" cy="50%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(2)"/>
+											<a href="#step_one"><circle id="step1" cx="200" cy="12" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(0)"/></a>
+											<a href="#step_two"><circle id="step1" cx="500" cy="25" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(1)" /></a>
+											<!--<circle id="step1" cx="47%" cy="50%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(2)"/>
 											<circle id="step1" cx="99%" cy="74%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(3)"/>
-											<circle id="step1" cx="1%" cy="98.4%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(4)"/>
+											<circle id="step1" cx="1%" cy="98.4%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(4)"/>-->
 										</svg>
 										<!--<img src="img/path.svg" />-->
 									</div>
@@ -63,22 +101,22 @@
 						<div class="sidebar" hidden>
 							<div id="sticky-anchor"></div>
 							<div id="sidebar">
-								<h4>Human.nyc</h4>
-
-								<ul id="menu">
-									<li>one</li>
-									<li>two</li>
-									<li>three</li>
-									<li>four</li>
-									<li>five</li>
-									<li>six</li>
-									<li>seven</li>
-									<li>eight</li>
-									<li>nine</li>
-									<li>ten</li>
-									<li>eleven</li>
-									<li>twelve</li>
-								</ul>
+								<div class="path">
+										<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										    <desc>Human.nyc path</desc>
+										    <g id="path" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+										        <g id="Artboard" transform="translate(0, 10)" stroke="#707070" stroke-width="3">
+										            <path id="HumanPath" width="100%" height="100%" data-name="Human Path" class="vectorPath" d="M-406,160.585s454.354-13,457,70.845-333.92,21.408-331,117.5,254.479,64.3,252,145.461-299.02,30.72-299,106.2,188.508,78.728,188.508,78.728" transform="translate(600 -158.355)"/>
+										        </g>
+										    </g>
+											<a href="#step_one"><circle id="step1" cx="200" cy="12" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(0)"/></a>
+											<a href="#step_two"><circle id="step1" cx="500" cy="25" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(1)" /></a>
+											<!--<circle id="step1" cx="47%" cy="50%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(2)"/>
+											<circle id="step1" cx="99%" cy="74%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(3)"/>
+											<circle id="step1" cx="1%" cy="98.4%"" r="10" stroke="#707070" stroke-width="3" fill="white" onmouseover="StepOnOver(4)"/>-->
+										</svg>
+										<!--<img src="img/path.svg" />-->
+									</div>
 							</div>
 						</div>
 						<div class="content step" id="step_one">
@@ -156,7 +194,7 @@
 													<div class="card-header" id="headingFour">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-																Collapsible Group Item #1
+																Couples are often found "ineligible" for shelters that would allow them to stay together
 															</button>
 														</h5>
 													</div>
@@ -171,7 +209,7 @@
 													<div class="card-header" id="headingFive">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-																Collapsible Group Item #2
+																People understandably won't give up their pets, which are not allowed in shelters
 															</button>
 														</h5>
 													</div>
@@ -185,7 +223,7 @@
 													<div class="card-header" id="headingSix">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-																Collapsible Group Item #3
+																The way the city "categorizes" people into shelters can create problematic situations
 															</button>
 														</h5>
 													</div>
@@ -210,7 +248,7 @@
 										<div class="tab-content" id="myTabContent">
 											<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 												<div class="embed-responsive embed-responsive-16by9" style="margin-top: 1rem">
-													<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QwW9OJnq1jc?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+													<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1T0UfLO-kyU?rel=0&cc_load_policy=1" allowfullscreen></iframe>
 												</div>
 											</div>
 											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -228,7 +266,7 @@
 								</div>
 								<div class="row">
 									<div class="col col-xs-12">
-										<h2>Become Street Homeless</h2>
+										<h2>Sighting Process</h2>
 										<span>A person no longer has a place to stay and begins to live on the street full time.</span>
 										<hr>
 									</div>
@@ -242,45 +280,43 @@
 												<div class="card">
 													<div class="card-header" id="headingOne">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-																People need to live on the streets for 9 months to be chronically homeless
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseOne" aria-expanded="false" aria-controls="TwoCollapseOne">
+																People tell us their experiences at the intake and assessment shelters are traumatic
 															</button>
 														</h5>
 													</div>
 
-													<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+													<div id="TwoCollapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>In order to be eligible for a Safe Haven, a person must meet, and provide a way to prove they meet, the city’s chronicity requirement. This provides a barrier to many people who have recently become homeless or left the shelter system, leading to a wait of up to nine months before becoming eligible for transitional housing. 
-															In practice, we have found that people who are working with a case manager (see step 2) are often in limbo; people experiencing street homeless want to move into transitional housing but have to wait for one of two things (sometimes both): they become eligible or a vacancy becomes available.
-															<span>Daiski, I. (2007). Perspectives of homeless people on their health and health needs priorities. Journal of Advanced Nursing.</span></p>
+															<p>Street homeless New Yorkers often leave the shelter system after poor experiences during the intake and assessment process. Intake and assessment take place at shelters that have over 200 residents at a time, and people often report that the conditions are especially poor at these shelters. Intake and assessment is supposed to take 21 days, although it normally takes longer. Afterwards, residents will be transferred to a program shelter, which is likely smaller.</p>
 														</div>
 													</div>
 												</div>
 												<div class="card">
 													<div class="card-header" id="headingTwo">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-																While waiting to become eligible, people adjust to their new life on the streets
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseTwo" aria-expanded="false" aria-controls="TwoCollapseTwo">
+																People cite theft, violence, and inedible food as reasons they avoid shelters
 															</button>
 														</h5>
 													</div>
-													<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+													<div id="TwoCollapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+															<p>Theft, violence, and expired/ unhealthy food in shelters are cited as some of the top reasons people choose not to stay in shelters, and instead feel safer or more comfortable sleeping on the sidewalks of New York City. People tell us that when they sleep on the streets, they get to choose who they sleep around and have less fear that their belongings will disappear overnight. Some choose to not even try the shelters after hearing other people’s experiences and reading about the crime and violence within the system.</p>
 														</div>
 													</div>
 												</div>
 												<div class="card">
 													<div class="card-header" id="headingThree">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-																One non-shelter option during the waiting period is the city’s drop-in centers
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseThree" aria-expanded="false" aria-controls="TwoCollapseThree">
+																People are often placed in shelters far away from their communities and supports
 															</button>
 														</h5>
 													</div>
-													<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+													<div id="TwoCollapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+															<p>In his Turning the Tide on Homelessness report, the Mayor recognized that historically people in shelters have been placed in neighborhoods and boroughs far from where they came from - he pledged to work on placing people in shelters closer to their communities of origin. However, we continue to encounter single adults whose assigned shelter is located far away from the services and people they want to be near; people continue to choose sleeping on the streets near their daily programs, like outpatient substance abuse treatment, rather than commute hours each day from their shelter.</p>
 														</div>
 													</div>
 												</div>
@@ -295,43 +331,43 @@
 												<div class="card">
 													<div class="card-header" id="headingFour">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-																Collapsible Group Item #1
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseFour" aria-expanded="false" aria-controls="TwoCollapseFour">
+																Couples are often found "ineligible" for shelters that would allow them to stay together
 															</button>
 														</h5>
 													</div>
 
-													<div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+													<div id="TwoCollapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+															<p>The strict eligibility for adult families (families without children) at AFIC, the Adult Family Intake Center, is a driver in street homelessness. There is no right to shelter for adult families who want to stay together, and instead, adult families must go through intake and eligibility process which often ends in an “ineligible for shelter” determination.  Many people prefer to stay outside with their loved ones than separate into different shelters.</p>
 														</div>
 													</div>
 												</div>
 												<div class="card">
 													<div class="card-header" id="headingFive">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-																Collapsible Group Item #2
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseFive" aria-expanded="false" aria-controls="TwoCollapseFive">
+																People understandably won't give up their pets, which are not allowed in shelters
 															</button>
 														</h5>
 													</div>
-													<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+													<div id="TwoCollapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+															<p>People describe pets as members of their family, and choose to stay connected with their pets rather than give them up to live in a shelter. To access shelters and other resources (such as medical clinics, inpatient treatment, soup kitchens, etc.) they are told they must separate from their pet, a decision they may not choose, therefore leaving them few options but to remain unsheltered and untreated.</p>
 														</div>
 													</div>
 												</div>
 												<div class="card">
 													<div class="card-header" id="headingSix">
 														<h5 class="mb-0">
-															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-																Collapsible Group Item #3
+															<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#TwoCollapseSix" aria-expanded="false" aria-controls="TwoCollapseSix">
+																The way the city "categorizes" people into shelters can create problematic situations
 															</button>
 														</h5>
 													</div>
-													<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+													<div id="TwoCollapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
 														<div class="card-body">
-															<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+															<p>After the assessment process, each individual gets "categorized" and placed into a program shelter. While, in theory, assessments and placements into a program shelter should be individualized, we have learned that there are very low thresholds to place someone into mental health, substance abuse, or dual-diagnoses (MICA) shelters. For example, people who report seeking mental health services for anxiety, despite holding down a job, may be categorized as a “mental health client” and placed into a program shelter for people with high mental health needs, rather than in an employment shelter where there is further support around employment and independent living options. Similarly, a person who reports smoking marijuana one time per month would be placed into a substance abuse shelter.</p>
 														</div>
 													</div>
 												</div>
@@ -350,7 +386,7 @@
 										<div class="tab-content" id="myTabContent">
 											<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 												<div class="embed-responsive embed-responsive-16by9" style="margin-top: 1rem">
-													<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QwW9OJnq1jc?rel=0" allowfullscreen></iframe>
+													<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kcjLSmCGiFE?rel=0" allowfullscreen></iframe>
 												</div>
 											</div>
 											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
