@@ -343,3 +343,17 @@ h3.huge {
 .highlight.huge {
 	font-size: 1.5em;
 }
+.readMore {
+	position: absolute;
+    width: 95%;
+    background: aliceblue;
+    height: 83vh;
+    margin: 0 1.5rem;
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+.readMoreClose {
+	position: absolute;
+    top: 5px;
+    right: 15px;
+}
