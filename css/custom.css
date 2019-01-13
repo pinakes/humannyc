@@ -1,5 +1,7 @@
 /* General */
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background: url(../img/nyc-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
@@ -66,7 +68,7 @@ a:hover {
 /* path */
 .path {
 	padding-top: 62px;
-    height: 70vh;
+    height: 642px;
     position: relative;
     display: block;
 }
@@ -74,6 +76,12 @@ circle:hover {
 	stroke-width: 4px;
 	stroke: #0230A3;
 	cursor: pointer;
+}
+.pathSlim {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 654px;
 }
 /* Top-bar */
 .topbar {
@@ -123,6 +131,7 @@ circle:hover {
     box-shadow: 0 0 20px rgba(0,0,0,.2);
     overflow: hidden;
     background: #ffffff;
+    min-height: 780px;
 }
 .card {
     position: relative;
@@ -320,7 +329,7 @@ span.txt-img img {
 .cover {
 	display: block;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 }
 #exampleModal {
 	padding-right: 0 !important;
@@ -356,4 +365,16 @@ h3.huge {
 	position: absolute;
     top: 5px;
     right: 15px;
+}
+
+.sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+ 	top: 0;
+ 	height: 100vh;
+}
+text.graphText {
+	font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75em;
 }
