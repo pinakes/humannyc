@@ -82,10 +82,11 @@ circle:hover {
     top: 50%;
     transform: translateY(-50%);
     height: 654px;
+    padding: 0 7px;
 }
 /* Top-bar */
 .topbar {
-	margin: 1em 0;
+	margin: 1em 0 2em 0;
 }
 .topbar a{
 	float: right;
@@ -167,165 +168,6 @@ circle:hover {
 	max-height: 550px;
     overflow: scroll;
 }
-/*
-body {
-	padding: 0;
-	margin: 0;
-}
-ul {
-	list-style: none;
-	padding: 0;
-}
-h1.huge {
-	position: absolute;
-	color: #fff;
-    font-size: 22vw;
-    line-height: 20vw;
-    top: 40%;
-    transform: translateY(-80%);
-    text-align: center;
-}
-.txt.white a {
-	color: #fff;
-}
-.txt a, .txt a:visited, .txt a:active {
-	text-decoration: underline;
-}
-.txt a:hover {
-	text-decoration: none;
-}
-#sidebar h2 {
-	font-size: 3em;
-}
-.hide {
-	visibility: hidden;
-}
-.show {
-	visibility: visible;
-}
-.wrapper {
-
-}
-.cover {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-#world {
-	position: absolute;
-	z-index: 1;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-#world.small {
-	position: fixed;
-	z-index: 1;
-	top: 50%;
-	left: 90px;
-	transform: translate(-50%, -50%);
-	animation-name: small;
-    animation-duration: 0.5s;
-}
-.content, .sidebar {
-	position: absolute;
-	top: 100%;
-}
-#sidebar {
-	width: 230px;
-	float: left;
-	padding-left: 28px;
-	min-height: 800px;
-}
-#sidebar.stick {
-	position: fixed;
-	top: 0%;
-	height: 100%;
-	z-index: 2;
-}
-#sidebar .title {
-	margin-bottom: 130px;
-}
-#title_bottom {
-	position: absolute;
-    bottom: 0;
-}
-.article, .about {
-	padding-left: 230px;
-}
-.article {
-	max-width: 70%;
-}
-.about {
-	max-width: 70%;
-}
-.end {
-	width: 100vw;
-	position: absolute;
-	height: 100vh;
-	background: #165a1a;
-	color: #fff;
-	z-index: 10;
-}
-.about p {
-	font-size: 22px;
-}
-.email_form {
-	margin-top: 5em;
-}
-.blu {
-	background: rgba(0, 160, 212, 0.45);
-}
-.giallo {
-	background: rgba(255, 255, 0, 0.5);
-}
-.clear {
-	clear: both;
-    padding-top: 1em;
-}
-.clear input {
-	background: none;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    font-size: 2em;
-    font-family: "main-bold", helvetica, arial, sans-serif;
-    padding: 0.1em 0.5em 0.4em;
-    cursor: pointer;
-}
-.colophon {
-	position: absolute;
-    bottom: 49px;
-    font-family: "main-regular", helvetica, arial, sans-serif;
-    font-size: .8em;
-}
-span.txt-img {
-	display: -webkit-inline-box; 
-	overflow: visible; 
-	position: relative; 
-	height: 45px;
-}
-span.txt-img img {
-	position: relative;
-}
-
-:focus {
-	outline: 0;
-}
-
-#outer  {
-  display: table;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-}
-
-#inner {
-  display: table-cell;
-  vertical-align: middle;
-}
-*/
 .cover {
 	display: block;
 	width: 100%;
